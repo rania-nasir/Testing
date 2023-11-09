@@ -1,23 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import { Button } from "keep-react";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p className='text-6xl text-red-500 bg-purple-200'>
-          Hello World
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Button size="md">Get Started</Button>
     </div>
   );
 }
